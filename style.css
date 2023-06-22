@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #0C151D;
+}
+
+.container-flashlight {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 5em; 
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    cursor: pointer;
+  }
+  
+  .icon ion-icon {
+    font-size: 1.5em; 
+    color: #FFFFFF;
+  }
+
+  .icon icon:hover {
+    opacity: 0.8; 
+  }
+
+  .icon-2 {
+    font-size: 1.2em;
+    color: #3D3D3D;
+  }
+
+  .infos-2 a {
+    display: inline-block;
+    color: #A3ABB2;
+    border: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10em; 
+    color: #F1F2F4;
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .infos {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 1em; 
+    margin-left: 1.5em;
+    justify-content: start;
+  }
+
+  .profession{
+    color: #A3ABB2;
+  }
+
+  .icon-list {
+    margin-right: 0.5em; 
+    font-size: 1.5em;
+    margin-top: 0.5em;
+  }
+  
+  .infos-2 {
+    display: flex;
+    flex-direction: row;
+    color: #A3ABB2;
+  }
+
+  .name {
+    font-size: 2em;
+  }
+
+ul {
+    list-style-type: none;
+}
+
+.avatar {
+    width: 10em;
+    height: 10em;
+    border-radius: 20em;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9em;
+  }
+  
+  .tasks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    width: 0.1em;
+    color: #A3ABB2;
+  }
+  
+  .tasks li {
+    text-align: center;
+    padding: 0.625em;
+  }
+  
+  .container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9em;
+  }
+  
+  .buttons-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .download-btn {
+    padding: 1em 3em;
+    margin-right: 2.5em;
+    background-color: #FFE071;
+    color: #fff;
+    border: none;
+    border-radius: 0.25em;
+    font-size: 1em;
+    cursor: pointer;
+    color: #3D3D3D;
+  }
+  
+  .contact-btn {
+    padding: 1em 3em;
+    background-color: #171F26;
+    color: #fff;
+    border: none;
+    border-radius: 0.25em;
+    font-size: 1em;
+    cursor: pointer;
+    color: #A3ABB2;
+  }
+  
+  .buttons-menu button:hover {
+    opacity: 0.8; 
+  }
+
+  .container-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em; 
+  }
+
+.box {
+  width: 31.25em;
+  height: 5em;
+  border-radius: 0.625em;
+  background-color: #171f26;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25em;
+  color: #FFF;
+}
+
+.btn_back {
+  padding: 0 0.9375em;
+  width: 100%;
+  max-width: 13.125em;
+  height: 3.125em;
+  background-color: #29323a;
+  border-radius: 0.625em;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+}
+
+.btn_back.hide {
+  transform: translate(120%, 0em);
+}
+
+.btn_projects_skills {
+  padding: 0.9375em;
+  width: 100%;
+  max-width: 13.125em;
+  border-radius: 0.625em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1;
+}
+ 
+  .buttons-porti {
+    width: 32.5em;
+    height: 4.5em;
+    border-radius: 0.6em;
+    background-color: #171F26;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+  }
+
+  .btns {
+    background-color: #0C151D;
+    padding: 1.5em;
+    width: 100em;
+    max-width: 15em;
+    border-radius: 0.6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #A3ABB2;
+    border: none;
+}
+
+.btns:hover {
+  cursor: pointer;
+}
+
+
+.container-5 {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ margin-top: 1.25em;
+}
+
+.container-5_thumbs {
+  width: 100%;
+  max-width: 37.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.thumb_project {
+  width: 18.125em;
+  border-radius: 0.5em;
+}
+
+.container-6 {
+  width: 100%;
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2em;
+  height: 30em; 
+}
+
+.container-6-1,
+.container-6-2,
+.container-6-3,
+.container-6-4,
+.container-6-5 {
+  width: 100%;
+  max-width: 32em;
+  display: flex;
+  justify-content: flex-start; 
+  margin-bottom: 1em; 
+  margin-top: 2em; 
+  margin-right: 5em; 
+}
+
+.container-6-1 {
+  max-width: 28em;
+}
+
+.container-6-2 {
+  max-width: 25em;
+}
+
+.container-6-3 {
+  max-width: 15em;
+}
+
+.container-6-4 {
+  max-width: 12.5em;
+}
+
+.container-6-5 {
+  max-width: 12.5em;
+}
+
+.progressos {
+  width: 100%;
+  max-width: 32em;  
+  padding: 1em; 
+  background-color: #29323a;
+  border-radius: 0.4em;
+}
+
+.progress-bar {
+  padding: 0.5em 1em;
+  width: 0.625em;
+  height: 100%;
+  background-color: #FFD700;
+  animation: progress 2s ease-in-out forwards;
+  margin-left: 1em; 
+  border-radius: 0.4em;
+}
+
+@keyframes progress {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
